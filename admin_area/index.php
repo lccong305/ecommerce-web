@@ -110,3 +110,22 @@ $count_coupons = mysqli_num_rows($run_coupons);
 <div id="page-wrapper"><!-- page-wrapper Starts -->
 
 <div class="container-fluid"><!-- container-fluid Starts -->
+
+  
+</div><!-- container-fluid Ends -->
+
+</div><!-- page-wrapper Ends -->
+
+</div><!-- wrapper Ends -->
+
+<script src="js/jquery.min.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+
+
+</body>
+
+
+</html>
+
+<?php } ?>

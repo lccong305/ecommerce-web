@@ -286,7 +286,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <li class="active">
 
-<a data-toggle="tab" href="#description"> Product Description </a>
+<a data-toggle="tab" href="#description"> Products Description </a>
 
 </li>
 

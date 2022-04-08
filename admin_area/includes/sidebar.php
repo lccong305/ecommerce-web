@@ -169,6 +169,34 @@ if (!isset($_SESSION['admin_email'])) {
                 </li><!-- Products li Ends -->
 
                 <li>
+                    <!-- li Starts -->
+
+                    <a href="#" data-toggle="collapse" data-target="#users">
+
+                        <i class="fa fa-fw fa-gear"></i> Users
+
+                        <i class="fa fa-fw fa-caret-down"></i>
+
+
+                    </a>
+
+                    <ul id="users" class="collapse">
+
+                        <li>
+                            <a href="index.php?insert_user"> Insert User </a>
+                        </li>
+
+                        <li>
+                            <a href="index.php?view_users"> View Users </a>
+                        </li>
+
+                      
+
+                    </ul>
+
+                </li><!-- li Ends -->
+
+                <li>
 
                     <a href="logout.php">
 
@@ -183,5 +211,7 @@ if (!isset($_SESSION['admin_email'])) {
         </div><!-- collapse navbar-collapse navbar-ex1-collapse Ends -->
 
     </nav><!-- navbar navbar-inverse navbar-fixed-top Ends -->
+
+
 
 <?php } ?>

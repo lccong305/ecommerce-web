@@ -98,7 +98,6 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <li>
                         <!-- li Starts -->
-
                         <a href="index.php?view_p_cats">
 
                             <i class="fa fa-fw fa-gear"></i> Product Categories
@@ -216,12 +215,42 @@ if (!isset($_SESSION['admin_email'])) {
                         </li>
 
                         <li>
-                            <a href="index.php?view_coupons"> View Coupons </a>
+                            <a href="index.php?view_coupons"> View Couponss </a>
                         </li>
 
                     </ul><!-- ul collapse Ends -->
 
                 </li><!-- Coupons Section li Ends -->
+
+                <li>
+                    <!-- li Starts -->
+
+                    <a href="#" data-toggle="collapse" data-target="#p_cat">
+
+                        <i class="fa fa-fw fa-pencil"></i> Products Categories
+
+                        <i class="fa fa-fw fa-caret-down"></i>
+
+
+                    </a>
+
+                    <ul id="p_cat" class="collapse">
+
+                        <li>
+                            <a href="index.php?insert_p_cat"> Insert Product Category </a>
+                        </li>
+
+                        <li>
+                            <a href="index.php?view_p_cats"> View Products Categories </a>
+                        </li>
+
+
+                    </ul>
+
+                </li><!-- 
+
+
+
 
                 <li>
 

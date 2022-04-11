@@ -196,7 +196,16 @@ if(isset($_GET['insert_product'])){
 
                     include("edit_p_cat.php");
                 }
+                
+                if (isset($_GET['view_payments'])) {
 
+                    include("view_payments.php");
+                }
+
+                if (isset($_GET['payment_delete'])) {
+
+                    include("payment_delete.php");
+                }
 ?>
 
   

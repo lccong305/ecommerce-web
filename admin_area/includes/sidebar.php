@@ -247,7 +247,20 @@ if (!isset($_SESSION['admin_email'])) {
 
                     </ul>
 
-                </li><!-- 
+                </li>
+                
+                <li>
+
+                    <a href="index.php?view_payments">
+
+                        <i class="fa fa-fw fa-pencil"></i> View Payments
+
+                    </a>
+
+                </li>
+                
+                
+                <!-- 
 
 
 

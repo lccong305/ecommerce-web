@@ -206,6 +206,10 @@ if(isset($_GET['insert_product'])){
 
                     include("payment_delete.php");
                 }
+                if (isset($_GET['user_profile'])) {
+
+                    include("user_profile.php");
+                }
 ?>
 
   

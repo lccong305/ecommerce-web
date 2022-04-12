@@ -215,6 +215,16 @@ if(isset($_GET['insert_product'])){
 
                     include("edit_about_us.php");
                 }
+
+                if (isset($_GET['view_orders'])) {
+
+                    include("view_orders.php");
+                }
+
+                if (isset($_GET['order_delete'])) {
+
+                    include("order_delete.php");
+                }
 ?>
 
   

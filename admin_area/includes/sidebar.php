@@ -138,7 +138,7 @@ if (!isset($_SESSION['admin_email'])) {
             <ul class="nav navbar-nav side-nav">
                 <!-- nav navbar-nav side-nav Starts -->
 
-                
+
 
                 <li>
                     <!-- Products li Starts -->
@@ -189,7 +189,7 @@ if (!isset($_SESSION['admin_email'])) {
                             <a href="index.php?view_users"> View Users </a>
                         </li>
 
-                      
+
 
                     </ul>
 
@@ -248,7 +248,7 @@ if (!isset($_SESSION['admin_email'])) {
                     </ul>
 
                 </li>
-                
+
                 <li>
 
                     <a href="index.php?view_payments">
@@ -268,8 +268,18 @@ if (!isset($_SESSION['admin_email'])) {
                     </a>
 
                 </li>
-                
-                
+
+                <li>
+
+                    <a href="index.php?view_orders">
+
+                        <i class="fa fa-fw fa-list"></i> View Orders
+
+                    </a>
+
+                </li>
+
+
                 <!-- 
 
 

@@ -258,6 +258,16 @@ if (!isset($_SESSION['admin_email'])) {
                     </a>
 
                 </li>
+
+                <li>
+
+                    <a href="index.php?edit_about_us">
+
+                        <i class="fa fa-fw fa-edit"></i> Edit About Us Page
+
+                    </a>
+
+                </li>
                 
                 
                 <!-- 

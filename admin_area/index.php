@@ -210,6 +210,11 @@ if(isset($_GET['insert_product'])){
 
                     include("user_profile.php");
                 }
+
+                if (isset($_GET['edit_about_us'])) {
+
+                    include("edit_about_us.php");
+                }
 ?>
 
   

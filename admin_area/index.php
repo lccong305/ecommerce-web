@@ -113,6 +113,13 @@ $count_coupons = mysqli_num_rows($run_coupons);
 
 <?php
 
+if(isset($_GET['dashboard'])){
+
+    include("dashboard.php");
+    
+    }
+
+
 if(isset($_GET['insert_product'])){
 
     include("insert_product.php");
@@ -215,6 +222,17 @@ if(isset($_GET['insert_product'])){
 
                     include("edit_about_us.php");
                 }
+                if(isset($_GET['view_customers'])){
+
+                    include("view_customers.php");
+                    
+                    }
+                    
+                    if(isset($_GET['customer_delete'])){
+                    
+                    include("customer_delete.php");
+                    
+                    }
 
                 if (isset($_GET['view_orders'])) {
 
@@ -225,6 +243,7 @@ if(isset($_GET['insert_product'])){
 
                     include("order_delete.php");
                 }
+
 ?>
 
   

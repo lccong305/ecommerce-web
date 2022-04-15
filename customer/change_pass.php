@@ -7,7 +7,7 @@
 
 <label>Enter Your Current Password</label>
 
-<input type="text" name="old_pass" class="form-control" required>
+<input type="password" name="old_pass" class="form-control" required>
 
 </div><!-- form-group Ends -->
 
@@ -16,7 +16,7 @@
 
 <label>Enter Your New Password</label>
 
-<input type="text" name="new_pass" class="form-control" required>
+<input type="password" name="new_pass" class="form-control" required>
 
 </div><!-- form-group Ends -->
 
@@ -25,7 +25,7 @@
 
 <label>Enter Your New Password Again</label>
 
-<input type="text" name="new_pass_again" class="form-control" required>
+<input type="password" name="new_pass_again" class="form-control" required>
 
 </div><!-- form-group Ends -->
 
